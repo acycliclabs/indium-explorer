@@ -3,12 +3,12 @@
 ## Setup
 Fork it and then clone it:
 ```
-$ git clone https://github.com/YOUR-USERNAME/Spoon-Knife
+$ git clone https://github.com/YOUR-USERNAME/indium-explorer
 ```
 
 Or, you can also directly clone it:
 ```
-$ git clone https://github.com/acycliclabs/Spoon-Knife
+$ git clone https://github.com/acycliclabs/indium-explorer
 ```
 
 #### Node compatibility version: `v8.16.0`
