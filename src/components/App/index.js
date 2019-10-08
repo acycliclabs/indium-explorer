@@ -6,6 +6,7 @@ import Block from './../Block';
 import Transaction from './../Transaction';
 import Address from './../Address';
 import Home from './../Home';
+import About from './../About';
 import {
   BrowserRouter as Router,
   Route
@@ -76,6 +77,7 @@ class App extends Component {
           <Router>
             <div>
               <Route exact path="/" component={Home}/>
+              <Route exact path="/about" component={About}/>
               <Route exact path="/block" render={() => (
                 <h3>Please select a blockHash.</h3>
               )}/>
