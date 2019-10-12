@@ -2,8 +2,10 @@
   "name": "indium-explorer",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://indium.acycliclabs.com",
   "dependencies": {
     "dotenv": "^6.0.0",
+    "gh-pages": "^2.1.1",
     "history": "^4.7.2",
     "react": "^16.2.0",
     "react-bootstrap": "^0.32.1",
@@ -19,6 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   }
 }
