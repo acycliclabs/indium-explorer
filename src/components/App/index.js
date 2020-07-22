@@ -81,15 +81,15 @@ class App extends Component {
               <Route exact path="/block" render={() => (
                 <h3>Please select a blockHash.</h3>
               )}/>
-              <Route path="/block/:blockHash" component={Block}/>
+              <Route exact path="/block/:blockHash" component={Block}/>
               <Route exact path="/tx" render={() => (
                 <h3>Please select a transaction hash.</h3>
               )}/>
-              <Route path="/tx/:txHash" component={Transaction}/>
+              <Route exact path="/tx/:txHash" component={Transaction}/>
               <Route exact path="/address" render={() => (
                 <h3>Please select an address.</h3>
               )}/>
-              <Route path="/address/:address" component={Address}/>
+              <Route exact path="/address/:address" component={Address}/>
             </div>
           </Router>
         }
