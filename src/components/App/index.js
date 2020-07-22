@@ -56,7 +56,7 @@ class App extends Component {
   render() {
     return (
       <div className = "App" >
-        <Navbar className="navbar navbar-expand-lg navbar-light bg-light">
+        <Navbar className="navbar navbar-expand-lg navbar-light bg-light navbar-white">
           <Navbar.Header>
             <Navbar.Brand>
               <a href="/"><img src="https://i.imgur.com/rYx7MtP.png" className="header-logo" alt="Acyclic" /> Indium Explorer</a>

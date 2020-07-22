@@ -1,5 +1,7 @@
 .App {
-/*  text-align: center;*/
+    /*  text-align: center;*/
+    background-color: #ffffff;
+    color: #222222;
 }
 
 .App-logo {
@@ -9,9 +11,9 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: #ffffff;
   padding: 1px;
-  color: white;
+  color: #222222;
 }
 
 .App-title {
@@ -32,4 +34,8 @@
 .header-logo {
     width: auto;
     height: 2rem;
+}
+
+.navbar-white {
+    background-color: #f1f1f1 !important;
 }

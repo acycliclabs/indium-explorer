@@ -1,0 +1,14 @@
+.TransactionList .card .card-header {
+    background-color: #ffffff;
+    color: #444444;
+}
+
+.TransactionList .card .card-body {
+    background-color: #ffffff;
+    color: #444444;
+}
+
+.TransactionList .card .card-body tr {
+    background-color: #ffffff;
+    color: #444444;
+}
