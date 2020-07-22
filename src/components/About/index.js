@@ -11,7 +11,7 @@ class About extends Component {
                 <p className="animatedP">
                     <h2>Blockchain platform for app developers</h2>
                     Indium is an Ethereum-compatible blockchain network, focused on utility apps & public goods.
-                    <img src="https://i.imgur.com/qw9zpfu.jpg" class="about-indium-logo" />
+                    <img src="https://i.imgur.com/qw9zpfu.jpg" class="about-indium-logo" alt="Indium.Network" />
                 </p>
             </div>
         </div>
