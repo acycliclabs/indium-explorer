@@ -12,7 +12,7 @@
     "react-dom": "^16.4.2",
     "react-github-corner": "^2.1.0",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.1",
+    "react-scripts": "5.0.1",
     "react-timer-mixin": "^0.13.3",
     "recharts": "^1.0.0-beta.10",
     "web3": "^0.20.6"
